@@ -213,6 +213,7 @@
       v-model:pageSize="pageSize"
       :layout="paginationConfig.layout"
       :total="total"
+      :hide-on-single-page="paginationConfig.hideOnSinglePage"
     ></el-pagination>
   </div>
 </template>
