@@ -176,9 +176,6 @@
         v-loading="loading"
         :data="tableData"
         :row-key="rowKey"
-        :tree-props="tree.treeProps"
-        :lazy="tree.lazy"
-        :load="tree.load"
         tooltip-effect="dark"
         stripe
         :border="border"
